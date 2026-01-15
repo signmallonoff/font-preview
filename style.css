@@ -1,1 +1,432 @@
+/* ===== IMPORT ZONE (무조건 최상단) ===== */
+/* 엘리스 널리 */
+@import url('https://font.elice.io/css?family=Elice+DX+Neolli');
 
+/* 본고딕 */
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+/* 나눔스퀘어 */
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@latest/nanumsquare.css');
+
+/* 블랙 한산스 */
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
+
+/* 나눔명조 */
+@import url('//fonts.googleapis.com/earlyaccess/nanummyeongjo.css');
+/* =========================
+   장식체 (제목·포인트용)
+========================= */
+
+/* 원스토어 모바일 POP */
+@font-face {
+  font-family: 'OneStoreMobilePop';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 문경감홍사과 */
+@font-face {
+  font-family: 'MungyeongGamhongApple';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2410-2@1.0/Mungyeong-Gamhong-Apple.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 창원 단감 아삭체 */
+@font-face {
+  font-family: 'ChangwonDanggamAsak';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/CWDangamAsac-Bold.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 파셜산스 */
+@font-face {
+  font-family: 'PartialSans';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/PartialSansKR-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 푸라닭 젠틀 고딕 */
+@font-face {
+  font-family: 'PuradakGentleGothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.1/PuradakGentleGothicR.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 신촌 랩소디 */
+@font-face {
+  font-family: 'SinchonRhapsody';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2503@1.0/SinchonRhapsody.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 어그로체 */
+@font-face {
+  font-family: 'Aggravo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');
+  font-weight: 500;
+  font-display: swap;
+}
+
+/* 카페24 클래식타입 */
+@font-face {
+  font-family: 'Cafe24ClassicType';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Cafe24ClassicType-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 평창 평화체 */
+@font-face {
+  font-family: 'PyeongchangPeace';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+/* =====================
+   HANDWRITING FONTS
+===================== */
+/*kcc 무럭무럭체*/
+@font-face {
+    font-family: 'KccMurukMuruk';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCMurukmuruk.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+/*그리운 몽토리체*/
+@font-face {
+    font-family: 'NostalgicMongtori';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-1@1.0/Griun_Mongtori-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+/*대구 동성로*/
+@font-face {
+    font-family: 'DaeguDongseongRo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2511-1@1.0/DaeguDongseongro-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+/*온글잎 바닷바람*/
+@font-face {
+    font-family: 'OngleIpSeaBreeze';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2510-1@1.0/Ownglyph_the_sea_breeze-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+/*온글잎 데이지*/
+@font-face {
+    font-family: 'OngleebDaisy';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2508-2@1.0/Ownglyph_daisy-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+/* tvN 즐거운이야기 */
+@font-face {
+  font-family: 'JoyfulStory';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 코트라 희망체 */
+@font-face {
+  font-family: 'KotraHope';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 온글잎 밑미 */
+@font-face {
+  font-family: 'MitmiFont';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 온글잎 박다현체 */
+@font-face {
+  font-family: 'OngleipParkDahyeon';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 학교안심 꾸러기 */
+@font-face {
+  font-family: 'SchoolSafetyKid';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimGgooreogiR.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 배찌체 */
+@font-face {
+  font-family: 'NexonBazzi';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/Bazzi.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 전남교육 유나체 */
+@font-face {
+  font-family: 'JeonnamEducationYuna';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-1@1.0/JNE-Yuna-TTF-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 더페이스샵 잉크립퀴드체 */
+@font-face {
+  font-family: 'InkLiquid';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 이서윤체 */
+@font-face {
+  font-family: 'IsYun';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* =====================
+   MYEONGJO FONTS
+===================== */
+
+
+/* HS 봄바람체 2.1 */
+@font-face {
+  font-family: 'HsBombaram21';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/HSBombaram21-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+/*김정철 명조*/
+@font-face {
+    font-family: 'KimJeongcheolMyoungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulMyungjo-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+/*예스명조*/
+@font-face {
+    font-family: 'YesMyungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_13@1.0/YESMyoungjo-Bold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+/*단조*/
+@font-face {
+    font-family: 'Simple';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Danjo-bold-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+/* 부크크명조 */
+@font-face {
+  font-family: 'BookkMyungjo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Bd.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* 마포애민 */
+@font-face {
+  font-family: 'MapoAemin';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoAgapeA.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 조선신명조 */
+@font-face {
+  font-family: 'JoseonShinmyeongjo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.1/ChosunSm.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 이롭게 바탕체 */
+@import url('//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
+
+/* 조선굵은명조 */
+@font-face {
+  font-family: 'JoseonBoldMyongjo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunKm.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 전남교육 또박체 */
+@font-face {
+  font-family: 'JeonnamEducationTtobaks';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-1@1.0/JNE-Ttobak-TTF-Extrabold.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 리디바탕 */
+@font-face {
+  font-family: 'Ridibatang';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 국립박물관문화재단 클래식 */
+@font-face {
+  font-family: 'MuseumCulturalFoundationClassic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식B.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* 산돌국대떡볶이체 */
+@font-face {
+  font-family: 'SandoolGukdaeTteokbokki';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SDKukdetopokki.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* 마루부리 */
+@font-face {
+  font-family: 'MaruBuri';
+  src: url('https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+/* =====================
+   GOTHIC FONTS
+===================== */
+
+
+
+/* 페이퍼로지 */
+@font-face {
+  font-family: 'Paperozi';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-display: swap;
+}
+
+/* 배민 도현 */
+@font-face {
+  font-family: 'Dohyun';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 이사만루 */
+@font-face {
+  font-family: 'Isamanru';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicBold.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* 프리텐다드 */
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/npm/pretendard@latest/dist/web/static/pretendard.css') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* 학교안심 곧은제목 */
+@font-face {
+  font-family: 'SchoolSafetyStraightTitle';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimGodeunjemokB.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* S-Core Dream */
+@font-face {
+  font-family: 'Escoredream';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* SUIT */
+@font-face {
+  font-family: 'Suit';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Heavy.woff2') format('woff2');
+  font-weight: 900;
+  font-display: swap;
+}
+
+/* G마켓 산스 */
+@font-face {
+  font-family: 'GMarketSans';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f5f5f5;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrap {
+  max-width: 900px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 40px;
+  border: 1px solid #ddd;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.desc {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.option-box {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+select {
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+.size {
+  font-size: 13px;
+  color: #333;
+}
+
+textarea {
+  width: 100%;
+  height: 320px;
+  padding: 20px;
+  font-size: 36px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  line-height: 1.4;
+}
