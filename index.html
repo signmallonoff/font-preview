@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>폰트 미리보기</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
 
+  <h1>폰트 텍스트 미리보기</h1>
+  <p class="desc">입력한 문구를 실제 제작 느낌으로 미리 확인해보세요.</p>
+
+  <div class="option-box">
+    <!-- 폰트 스타일 -->
+    <select id="styleSelect">
+      <option value="gothic">고딕체</option>
+      <option value="myeongjo">명조체</option>
+      <option value="handwriting">손글씨</option>
+      <option value="display">디스플레이</option>
+    </select>
+
+    <!-- 폰트 종류 -->
+    <select id="fontSelect"></select>
+
+    <!-- 크기 -->
+    <label class="size">
+      크기
+      <input type="range" id="fontSize" min="16" max="80" value="36">
+    </label>
+  </div>
+
+  <textarea id="preview">
+텍스트를 입력해 주세요.
+여러 줄 입력도 가능합니다.
+  </textarea>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
